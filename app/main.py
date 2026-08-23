@@ -2,6 +2,9 @@ from fastapi import FastAPI
 from app.routes import router
 from app.database import engine, Base
 from app.models import URL
+from app.logging_config import setup_logging
+
+setup_logging()
 
 Base.metadata.create_all(bind=engine)
 
