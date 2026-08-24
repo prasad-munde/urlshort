@@ -96,7 +96,7 @@ urlshortner/
 **Prerequisites:** Python 3.12+, Docker, Docker Compose
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/prasad-munde/urlshort
 cd urlshortner
 docker compose up --build
 ```
